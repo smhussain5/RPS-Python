@@ -1,27 +1,33 @@
 # ROCK PAPER SCISSORS PYTHON
 
-Insert GIF here...
+![RPS Python GIF Demonstration](https://github.com/smhussain5/RPS-Python/blob/main/RPS_PYTHON.gif?raw=true)
 
 ## Problem 🤔
 
-Insert text here...
+Fundamentals in Python are extremely important and require practice; however, practice should not be boring. The best way is to develop your own projects regardless of how "simple" it may seem.
 
 ## Solution 💡
 
-Insert text here...
+This terminal application utilizes user input to create an interactive experience. The Random module allows the CPU to make its own move. Both choices are stored in a tuple that is compared with winning tuples to determine the winner. This game logic is wrapped within a while loop that allows for players to play the game again if they would like.
 
 ## Technologies Used ⚙
 
-- PyCharm
+- PyCharm 
 - Python
+  - If/Elif/Else statement
+  - "In" operator
+  - Input
+  - "Random" module
+  - Tuples
+  - While loop
 
 ## Challenges 💢
 
-Insert text here...
+This was a straightforward application, but required proper organization for clean code. Fortunately, PEP8 guidelines built into PyCharm allows developers to follow best practices easily!
 
 ## Insights 💭
 
-Insert text here...
+This project was great practice for conditionals like while loops and if/else statements. It was also great to follow PEP8 guidelines for better code readibility.
 
 ## Contact 📲
 
