@@ -1,21 +1,21 @@
-from pyfiglet import Figlet
+"""
+Terminal application that simulates the classic "rock, paper, scissors" game
+"""
+
 import random
+from pyfiglet import Figlet
 
 fig = Figlet(font="isometric1")  # WELCOME SCREEN
 print(fig.renderText("RPS"))
 print("WELCOME TO ROCK PAPER SCISSORS!")
 
-game_choices = {  # GAME RULES
-    1: "ROCK",
-    2: "SCISSORS",
-    3: "PAPER"
-}
+game_choices = {1: "ROCK", 2: "SCISSORS", 3: "PAPER"}  # GAME RULES
 
 winning_sets = [(1, 2), (2, 3), (3, 1)]  # (user_choice, cpu_choice)
 
-play_again = True  # GAME LOOP
+PLAY_AGAIN = True  # GAME LOOP
 
-while play_again:
+while PLAY_AGAIN:
 
     print("\n")  # GAME MENU
     print("Enter '1' for ROCK")
@@ -43,9 +43,6 @@ while play_again:
 
     replay_choice = input("Play again? Enter Y/N...: ")  # GAME REPLAY
 
-    if replay_choice.upper() == "Y":
-        play_again = True
-    else:
-        play_again = False
+    PLAY_AGAIN = bool(replay_choice.upper() == "Y")
 
 print("Thanks for playing! See you again next time!")  # GAME END

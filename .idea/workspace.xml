@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59dfbdd7-1f2f-4d36-9ee7-b0f84d074fd4" name="Changes" comment="">
+    <list default="true" id="59dfbdd7-1f2f-4d36-9ee7-b0f84d074fd4" name="Changes" comment="Reformat code with Black and Pylint (Score: 10/10)">
+      <change afterPath="$PROJECT_DIR$/pylintrc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,5 +76,9 @@
       <updated>1703388483300</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reformat code with Black and Pylint (Score: 10/10)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat code with Black and Pylint (Score: 10/10)" />
   </component>
 </project>
