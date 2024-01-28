@@ -11,7 +11,7 @@ print("WELCOME TO ROCK PAPER SCISSORS!")
 
 game_choices = {1: "ROCK", 2: "SCISSORS", 3: "PAPER"}  # GAME RULES
 
-winning_sets = [(1, 2), (2, 3), (3, 1)]  # (user_choice, cpu_choice)
+winning_sets = [(1, 2), (2, 3), (3, 1)]  # WINNING TUPLES (user_choice, cpu_choice)
 
 PLAY_AGAIN = True  # GAME LOOP
 
