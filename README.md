@@ -10,6 +10,19 @@ Fundamentals in Python are extremely important and require practice; however, pr
 
 This terminal application utilizes user input to create an interactive experience. The Random module allows the CPU to make its own move. Both choices are stored in a tuple that is compared with winning tuples to determine the winner. This game logic is wrapped within a while loop that allows for players to play the game again if they would like.
 
+## Quick Start ⚡
+
+If you have Docker installed, you can run this application on your own machine with just 2 steps!
+<br>
+<br>
+Pull the image from Docker Hub
+```python
+docker pull smhussain5/rps-python
+```
+Then run the image as an interactive Docker container
+```python
+docker run --rm -it smhussain5/rps-python
+```
 ## Technologies Used ⚙
 
 - PyCharm 
